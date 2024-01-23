@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockeys Zone</title>
+    <title >Hockeys Zone</title>
     <!-- tailwind & daisy ul  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -20,7 +20,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            'bg-second': '#FF4240',
+            'second': '#FF4240',
           }
         }
       }
@@ -33,7 +33,7 @@
     </style>
 
 </head>
-<body class="font-manrope" >
+<body class="font-manrope m-5" >
     <!-- navbar -->
     <div class="lg:w-[1150px] mx-auto">
         <div class="navbar bg-base-100">
@@ -50,7 +50,7 @@
                     <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-orange-600">'</span>s</a>
+              <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold">Hockey  <span class="text-orange-600">Club</span></a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-xl">
@@ -72,7 +72,7 @@
         
         <!-- Banner section -->
         <section class="lg:w-[1150px]  mx-auto my-10 mx-5">
-            <div class="carousel w-full m-5">
+            <div class="carousel w-full ">
                 <!-- slide 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="./Images/1.png" class="w-full" />
@@ -123,8 +123,8 @@
                 <!--card 1-->
                 <div class="card  bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img   src="./Images/Group 9 (1).png" alt="Shoes" class="rounded-xl relative"  />
-    <p class="text-2xl font-bold  absolute left-6-5">87%</p>
+    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar"><p class="text-black">87%</p></div>
+    
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">Player Facility</h2>
@@ -135,8 +135,8 @@
         <!--2nd card -->
         <div class="card  bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img   src="./Images/group2.png" alt="Shoes" class="rounded-xl relative"  />
-    <p class="text-2xl font-bold  absolute left-6-5">95%</p>
+    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><p class="text-black">95%</p></div>
+  
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">Experienced Coach</h2>
@@ -147,8 +147,8 @@
         <!--3rd card-->
         <div class="card  bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img   src="./Images/Group 9 (3).png" alt="Shoes" class="rounded-xl relative"  />
-    <p class="text-2xl font-bold  absolute left-6-5">90%</p>
+    <div class="radial-progress text-[#ffdb0e]" style="--value:90;" role="progressbar"><p class="text-black">90%</p></div>
+   
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">Senior Player</h2>
@@ -159,8 +159,7 @@
             <!--4th card-->
             <div class="card bg-base-100 shadow-xl">
   <figure class="px-10 pt-10">
-    <img   src="./Images/Group 9.png" alt="Shoes" class="rounded-xl relative"  />
-    <p class="text-2xl font-bold  absolute left-6-5">80%</p>
+    <div class="radial-progress  text-[#0ebbff]" style="--value:80;" role="progressbar"><p class="text-black">80%</p></div>
   </figure>
   <div class="card-body items-center text-center">
     <h2 class="card-title">Training Ground</h2>
@@ -169,6 +168,227 @@
   </div>
 </div>
             </div>
+        </section>
+        <!-- program section  -->
+        <section class="lg:w[1150px] lg:h-auto lg:mx-auto lg:my-20 ">
+          <div class="text-center ">
+            <h2 class="text-3xl font-extrabold my-7">Program Sections</h2>
+            <p class="lg:w-1/3 lg:mx-auto">Discover hockey canada's range of development programs and drills intended to make the game fun, inclusive and safe for everyone.</p>
+          </div>
+          <!-- program img -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:mx-20 h-auto mt-6">
+
+            <!-- first card -->
+          
+            <div class="hero  lg:h-[350px] col-span-2 lg:col-span-1 rounded-xl " style="background-image: url(./Images/2.png);">
+              <div class="hero-overlay bg-opacity-40"></div>
+              <div class="hero-content text-start text-neutral-content">
+                <div class="">
+                  <h1 class="mb-5 text-3xl font-extrabold text-white lg:mt-10">Junior Program</h1>
+                  <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                  <button class="btn bg-second border-none text-white">Register Now!</button>
+                </div>
+              </div>
+            </div>
+            <!-- second card -->
+            <div class="hero col-span-2 lg:col-span-1 lg:h-[350px] rounded-xl" style="background-image: url(./Images/3.png);">
+              <div class="hero-overlay bg-opacity-40"></div>
+              <div class="hero-content text-start text-neutral-content">
+                <div class="">
+                  <h1 class="mb-5 text-3xl font-extrabold text-white lg:mt-10">Teenager Program</h1>
+                  <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                  <button class="btn bg-second border-none text-white">Register Now!</button>
+                </div>
+              </div>
+            </div>
+          <!-- 3rd-card -->
+          <div class="hero col-span-2 lg:h-[400px] rounded-xl " style="background-image: url(./Images/4.png);">
+            <div class="hero-overlay bg-opacity-40"></div>
+            <div class="hero-content text-start  text-neutral-content">
+              <div class=" text-start lg:mr-60 ">
+                <h1 class="mb-5 text-3xl font-extrabold text-white lg:mt-10">Professional Program</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut  assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn bg-second border-none text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+
+          </div>
+
+
+
+
+
+
+          </div>
+
+          </div>
+
+
+          </div>
+        </section>
+        <!-- new product -->
+        <section class="lg:w[1150px] my-24 mx-auto">
+          <div class="text-center ">
+            <h2 class="text-3xl font-extrabold text-center mb-6">Our New Products</h2>
+            <p>This all of just for you. if you interest our products you can purchase . </p>
+
+          </div>
+          <!-- nes product card -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mx-auto lg:ml-24">
+<!-- 1st -->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/5.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3">World Cup T-shirt Football</h2>
+    <p class="mt-3">Lotto Sport T-Shirt for Men</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+<!--2nd -->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/6.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3">World Cup  Football</h2>
+    <p class="mt-3">Brand new football.</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+<!-- 3rd -->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/7.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3">Cap for Hockey</h2>
+    <p class="mt-3">Lotto Sport cap for Men & women</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+<!-- 4th -->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/8.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3">World Cup T-shirt Football</h2>
+    <p class="mt-3">Lotto Sport T-Shirt for Men</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+<!-- five-->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/9.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3">World cup helmet for Cricket</h2>
+    <p class="mt-3">Lotto Sport helmet for world cup cricket.</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+<!-- six-->
+<div class="card card-side w-[525px] bg-base-100 shadow-xl">
+  <figure><img src="./Images/10.png" alt="Movie"/></figure>
+  <div class="card-body p-5 ">
+    <div class="flex gap-5">
+      <i class="fa-regular fa-star text-orange-400 flex gap-2 "><p class="text-black">5.0</p></i>
+      
+    <i class="fa-regular fa-eye flex gap-2">20</i>
+    <i class="fa-regular fa-heart flex gap-2">200</i>
+    </div>
+    <h2 class="card-title mt-3"> Football</h2>
+    <p class="mt-3">Brand new ball for football</p>
+    <div class="flex mt-3">
+    
+        <p class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</p>
+       
+        <div class="flex gap-2" >
+          <i class="fa-solid fa-cart-shopping"></i>
+        <p>Delivery Fee : Free</p>
+        </div>
+
+      
+    </div>
+  </div>
+</div>
+          </div>
+          
+          
         </section>
     </main>
 
